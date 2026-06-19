@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Inbox To Interview mark</title>
+  <desc id="desc">Abstract signal path mark generated from the target site's context by Auntie AI.</desc>
+  <rect width="512" height="512" rx="112" fill="#101820"/>
+  <circle cx="256" cy="256" r="156" fill="#F4F6F4" opacity="0.96"/>
+  <path d="M164 280c58-96 126-144 204-144-28 42-38 86-30 132 8 43 30 79 66 108-96 0-176-32-240-96Z" fill="#1D5C63"/>
+  <path d="M174 318c54-30 108-44 162-42 22 1 43 5 62 12-28 30-69 52-122 66-41 11-82 11-122 0 4-13 11-25 20-36Z" fill="#C78F2E" opacity="0.88"/>
+  <path d="M180 188h152v30H180zM180 236h102v30H180z" fill="#101820" opacity="0.9"/>
+</svg>
