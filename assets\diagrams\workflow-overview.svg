@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="560" viewBox="0 0 1400 560" role="img" aria-labelledby="title desc">
+  <title id="title">Inbox To Interview workflow overview</title>
+  <desc id="desc">A public-safe workflow from role intake to triage, packet, review, approved action, follow-up, interview prep, and receipt.</desc>
+  <rect width="1400" height="560" fill="#f7f4ee"/>
+  <rect x="46" y="46" width="1308" height="468" rx="28" fill="#ffffff" stroke="#1b342f" stroke-width="3"/>
+  <text x="86" y="112" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#1b342f">Inbox To Interview Workflow</text>
+  <text x="88" y="154" font-family="Arial, sans-serif" font-size="20" fill="#5c6864">Review-first command loop: every action gets a status and receipt.</text>
+  <g font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#1b342f">
+    <rect x="86" y="220" width="150" height="76" rx="14" fill="#d9f0e6" stroke="#1b342f"/><text x="112" y="265">Inbox</text>
+    <rect x="274" y="220" width="150" height="76" rx="14" fill="#f6df9f" stroke="#1b342f"/><text x="320" y="265">Triage</text>
+    <rect x="462" y="220" width="150" height="76" rx="14" fill="#d9f0e6" stroke="#1b342f"/><text x="494" y="265">Packet</text>
+    <rect x="650" y="220" width="150" height="76" rx="14" fill="#f6df9f" stroke="#1b342f"/><text x="690" y="265">Review</text>
+    <rect x="838" y="220" width="170" height="76" rx="14" fill="#d9f0e6" stroke="#1b342f"/><text x="868" y="265">Action</text>
+    <rect x="1046" y="220" width="170" height="76" rx="14" fill="#f6df9f" stroke="#1b342f"/><text x="1080" y="265">Follow-up</text>
+    <rect x="614" y="374" width="190" height="76" rx="14" fill="#1b342f"/><text x="650" y="420" fill="#ffffff">Receipt</text>
+  </g>
+  <g stroke="#1b342f" stroke-width="4" fill="none" marker-end="url(#arrow)">
+    <path d="M236 258 H274"/>
+    <path d="M424 258 H462"/>
+    <path d="M612 258 H650"/>
+    <path d="M800 258 H838"/>
+    <path d="M1008 258 H1046"/>
+    <path d="M1130 296 C1080 384 900 412 804 412"/>
+    <path d="M614 412 C410 412 300 360 250 296"/>
+  </g>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#1b342f"/></marker></defs>
+</svg>
