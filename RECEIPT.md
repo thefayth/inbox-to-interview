@@ -38,13 +38,15 @@ Publishing status: public export uploaded to GitHub. Direct `git push` was block
 
 ## Selected Visuals
 
-- `assets/hero/hero-image.png`
-- `assets/banners/github-banner.png`
-- `assets/social/social-card.png`
+- `assets/hero/hero-image.png` - Canva-generated operator room hero, design `DAHM_GDEhTE`.
+- `assets/banners/github-banner.png` - Canva-generated wide banner, design `DAHM_Kdigk8`.
+- `assets/social/social-card.png` - Canva-generated operator room hero reused for social after rejecting a flawed square candidate.
 - `assets/icons/project-icon.png`
 - `assets/gallery/process-illustration.svg`
 - `assets/gallery/hero-illustration.svg`
 - `assets/gallery/video-poster.svg`
+
+Rejected visual: Canva design `DAHM_De93UM`, because it duplicated the word "Interview" in the title.
 
 ## Workflow Status
 
