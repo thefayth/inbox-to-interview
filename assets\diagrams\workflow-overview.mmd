@@ -1,0 +1,13 @@
+flowchart LR
+  A["Role / recruiter inbox"] --> B["Triage queue"]
+  B --> C["Resume packet"]
+  C --> D["Application kit"]
+  D --> E["Faith review"]
+  E --> F{"Approved action"}
+  F --> G["Verified recruiter reply"]
+  F --> H["ATS / LinkedIn assist"]
+  G --> I["Follow-up"]
+  H --> I
+  I --> J["Interview prep"]
+  J --> K["Receipt / report"]
+  K --> B
