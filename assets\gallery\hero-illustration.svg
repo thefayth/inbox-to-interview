@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" role="img" aria-labelledby="title desc">
+  <title id="title">Inbox To Interview Hero Illustration</title>
+  <desc id="desc">First-viewport brand world and visual hook. Style mode: Editorial vector. Context: string, input.</desc>
+  <rect width="960" height="640" fill="#F4F6F4"/>
+  <path d="M0 500c170-88 310-126 420-114 154 16 254-30 382-138 58-50 108-75 158-76v468H0Z" fill="#D7E0E4" opacity="0.78"/>
+  <g opacity="0.28" stroke="#101820" stroke-width="1">
+    <path d="M80 120H880M80 220H880M80 320H880M80 420H880"/>
+    <path d="M160 80V560M330 80V560M560 80V560M790 80V560"/>
+  </g>
+  
+  <path d="M250 420c80-172 190-258 330-258 100 0 178 34 234 102-112-10-196 18-252 84-52 62-156 86-312 72Z" fill="#1D5C63" opacity="0.9"/>
+  <path d="M210 498c160-72 320-84 480-36" fill="none" stroke="#C78F2E" stroke-width="28" stroke-linecap="round"/>
+  <circle cx="668" cy="196" r="78" fill="#F4F6F4" stroke="#101820" stroke-width="8"/>
+  <text x="80" y="92" fill="#687782" font-family="Arial, sans-serif" font-size="22" letter-spacing="4">EDITORIAL-VECTOR</text>
+  <text x="80" y="564" fill="#14202A" font-family="Arial, sans-serif" font-size="42" font-weight="800">string</text>
+  <text x="80" y="604" fill="#687782" font-family="Arial, sans-serif" font-size="24">input / signal path</text>
+</svg>
