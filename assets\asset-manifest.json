@@ -1,0 +1,288 @@
+{
+  "tool": "Auntie AI",
+  "brand": "Inbox To Interview",
+  "generated_at": "2026-05-21T00:38:12",
+  "design_dna": {
+    "archetype": "dense editorial dashboard",
+    "layout_grammar": "asymmetric editorial grid",
+    "media_language": "material textures and close crops",
+    "motion_language": "measured reveal",
+    "texture": "quiet material noise",
+    "mark_logic": "signal path",
+    "ui_density": "medium-high"
+  },
+  "illustration_plan": {
+    "premise": "An original dense editorial dashboard illustration system for a editorial/docs site.",
+    "style_selection": {
+      "mode": "explicit",
+      "requested": "editorial-vector",
+      "style_mode": "editorial-vector",
+      "style_label": "Editorial vector",
+      "rationale": "Used explicit style override `editorial-vector` while still grounding subjects, assets, and media choices in site intent (editorial/docs, dashboard, developer tool) and audience signals (developer/operator, operator/analyst, reader/learner, client/commissioner).",
+      "evidence": {
+        "inferred_intents": [
+          "editorial/docs",
+          "dashboard",
+          "developer tool"
+        ],
+        "audience_signals": [
+          "developer/operator",
+          "operator/analyst",
+          "reader/learner",
+          "client/commissioner"
+        ],
+        "media_needs": [],
+        "top_terms": [
+          "string",
+          "null",
+          "input",
+          "await",
+          "row",
+          "error",
+          "status",
+          "resume",
+          "opportunity",
+          "async"
+        ]
+      }
+    },
+    "style_mode": "editorial-vector",
+    "style_label": "Editorial vector",
+    "style_prompt": "crisp editorial vector illustration, bold original shapes, refined composition, no generic SaaS blobs",
+    "local_renderer": "vector",
+    "subject_matter": [
+      "string",
+      "null",
+      "input",
+      "await",
+      "row",
+      "error",
+      "status",
+      "resume"
+    ],
+    "composition_grammar": "asymmetric editorial grid",
+    "shape_language": "signal path translated into layered geometric scenes",
+    "line_language": "confident thin-to-medium lines with selective filled masses",
+    "texture_treatment": "quiet material noise",
+    "palette_rules": "Use brand base, surface, accent, accent-alt, muted, and one tonal tint only.",
+    "people_rules": "Include people only when the site context supports it; represent them with dignity and specificity, never as decorative diversity filler.",
+    "accessibility_constraints": "No important text baked into raster images; maintain contrast and provide alt text.",
+    "do_not_use": [
+      "generic SaaS blob people",
+      "random floating shapes without metaphor",
+      "copied famous artist styles",
+      "trademarked characters or brand marks",
+      "unreadable AI-generated text",
+      "one-off illustration styles that drift between sections"
+    ],
+    "shots": [
+      {
+        "id": "hero-illustration",
+        "output": "public/brand/inbox-to-interview/illustrations/hero-illustration.svg",
+        "job": "First-viewport brand world and visual hook.",
+        "composition": "large editorial image with one unmistakable subject, asymmetric negative space, and brand mark logic embedded in the scene"
+      },
+      {
+        "id": "spot-illustration-01",
+        "output": "public/brand/inbox-to-interview/illustrations/spot-illustration-01.svg",
+        "job": "Feature or proof-point illustration.",
+        "composition": "compact spot image with strong silhouette and one product/context detail"
+      },
+      {
+        "id": "process-illustration",
+        "output": "public/brand/inbox-to-interview/illustrations/process-illustration.svg",
+        "job": "Explains process, system, or transformation.",
+        "composition": "beautiful system/process image with layered path, nodes, and before/after tension"
+      },
+      {
+        "id": "empty-state-illustration",
+        "output": "public/brand/inbox-to-interview/illustrations/empty-state-illustration.svg",
+        "job": "Empty, loading, or error state with brand warmth.",
+        "composition": "small quiet scene that reassures without becoming cute filler"
+      },
+      {
+        "id": "social-illustration",
+        "output": "public/brand/inbox-to-interview/illustrations/social-illustration.svg",
+        "job": "Editorial/social visual for previews and launch content.",
+        "composition": "poster-like editorial crop with high contrast and social preview readability"
+      }
+    ],
+    "editorial_quality_rules": [
+      "one strong visual idea per image",
+      "foreground/midground/background depth",
+      "intentional crop, not centered default composition",
+      "brand palette plus one controlled tonal tint",
+      "no unreadable text baked into the image",
+      "subject matter must come from site context terms",
+      "each image must feel related but not cloned"
+    ]
+  },
+  "media_plan": {
+    "depth": "standard",
+    "animation": {
+      "level": "section reveals, hover physics, media poster states, and reduced-motion fallbacks",
+      "css_classes": [
+        "auntie-kit-reveal",
+        "auntie-kit-float",
+        "auntie-kit-media-stage"
+      ],
+      "reduced_motion": "All generated motion must have a static equivalent."
+    },
+    "video": {
+      "enabled": true,
+      "tooling": "HyperFrames or Remotion when available; otherwise storyboard and poster assets.",
+      "outputs": [
+        "public/brand/inbox-to-interview/media/video-poster.svg",
+        "public/brand/inbox-to-interview/media/video-storyboard.svg",
+        "docs/brand/auntie-ai/prompts/video-concept.prompt.md"
+      ]
+    },
+    "three_d": {
+      "enabled": false,
+      "tooling": "Three.js/React Three Fiber or GLB pipeline when project supports it.",
+      "outputs": [
+        "public/brand/inbox-to-interview/media/3d-scene-spec.json",
+        "public/brand/inbox-to-interview/media/3d-poster.svg",
+        "src/components/auntie-kit/BrandMediaStage.tsx"
+      ]
+    },
+    "two_d": {
+      "enabled": false,
+      "tooling": "SVG spritesheet/style guide locally; sprite pipeline for runtime sheets when needed.",
+      "outputs": [
+        "public/brand/inbox-to-interview/media/sprite-style-guide.svg",
+        "public/brand/inbox-to-interview/media/spritesheet-contact.svg",
+        "docs/brand/auntie-ai/prompts/two-d-animation.prompt.md"
+      ]
+    },
+    "audio": {
+      "enabled": false,
+      "tooling": "Local WAV stinger plus prompt/spec for richer music/SFX provider.",
+      "outputs": [
+        "public/brand/inbox-to-interview/media/brand-stinger.wav",
+        "public/brand/inbox-to-interview/media/sfx-manifest.json",
+        "docs/brand/auntie-ai/prompts/audio-sfx.prompt.md"
+      ]
+    },
+    "style_carryover": {
+      "style_mode": "editorial-vector",
+      "style_prompt": "crisp editorial vector illustration, bold original shapes, refined composition, no generic SaaS blobs",
+      "motion_language": "measured reveal"
+    }
+  },
+  "assets": [
+    {
+      "id": "favicon-ico",
+      "name": "favicon.ico",
+      "type": "favicon",
+      "required": true,
+      "output": "public/favicon.ico",
+      "reason": "browser tab and legacy favicon support"
+    },
+    {
+      "id": "favicon-svg",
+      "name": "favicon.svg",
+      "type": "favicon",
+      "required": true,
+      "output": "public/favicon.svg",
+      "reason": "modern scalable browser icon"
+    },
+    {
+      "id": "apple-touch-icon",
+      "name": "apple-touch-icon.png",
+      "type": "app-icon",
+      "required": true,
+      "output": "public/apple-touch-icon.png",
+      "reason": "iOS home screen icon"
+    },
+    {
+      "id": "web-app-icon-192",
+      "name": "icon-192.png",
+      "type": "app-icon",
+      "required": true,
+      "output": "public/brand/inbox-to-interview/icon-192.png",
+      "reason": "PWA/web manifest icon"
+    },
+    {
+      "id": "web-app-icon-512",
+      "name": "icon-512.png",
+      "type": "app-icon",
+      "required": true,
+      "output": "public/brand/inbox-to-interview/icon-512.png",
+      "reason": "PWA/web manifest icon"
+    },
+    {
+      "id": "logo-mark",
+      "name": "logo-mark.svg",
+      "type": "logo",
+      "required": true,
+      "output": "public/brand/inbox-to-interview/logo-mark.svg",
+      "reason": "site mark and reusable UI identity"
+    },
+    {
+      "id": "wordmark",
+      "name": "wordmark.svg",
+      "type": "logo",
+      "required": true,
+      "output": "public/brand/inbox-to-interview/wordmark.svg",
+      "reason": "header/footer brand lockup"
+    },
+    {
+      "id": "og-image",
+      "name": "og-image.png",
+      "type": "social",
+      "required": true,
+      "output": "public/brand/inbox-to-interview/og-image.png",
+      "reason": "Open Graph/social preview"
+    },
+    {
+      "id": "social-card-svg",
+      "name": "social-card.svg",
+      "type": "social",
+      "required": false,
+      "output": "public/brand/inbox-to-interview/social-card.svg",
+      "reason": "editable social-card source"
+    },
+    {
+      "id": "hero-visual",
+      "name": "hero-visual.svg",
+      "type": "hero",
+      "required": true,
+      "output": "public/brand/inbox-to-interview/hero-visual.svg",
+      "reason": "first viewport brand signal"
+    },
+    {
+      "id": "pattern",
+      "name": "pattern.svg",
+      "type": "texture",
+      "required": true,
+      "output": "public/brand/inbox-to-interview/pattern.svg",
+      "reason": "section and panel texture"
+    },
+    {
+      "id": "empty-state",
+      "name": "empty-state.svg",
+      "type": "ui-illustration",
+      "required": false,
+      "output": "public/brand/inbox-to-interview/empty-state.svg",
+      "reason": "consistent UI empty/error state illustration"
+    },
+    {
+      "id": "article-cover",
+      "name": "article-cover.svg",
+      "type": "editorial",
+      "required": false,
+      "output": "public/brand/inbox-to-interview/article-cover.svg",
+      "reason": "blog/docs cover placeholder"
+    },
+    {
+      "id": "chart-texture",
+      "name": "chart-texture.svg",
+      "type": "dashboard",
+      "required": false,
+      "output": "public/brand/inbox-to-interview/chart-texture.svg",
+      "reason": "data-panel background and report visuals"
+    }
+  ],
+  "usage": "Assets are generated baseline implementations from project context. Replace or refine after the asset director approves final production media."
+}
