@@ -12,6 +12,8 @@ Repository URL: `https://github.com/thefayth/inbox-to-interview`
 
 Publishing status: public export uploaded to GitHub. Direct `git push` was blocked by local Windows credential prompt plumbing, so the export was published through authenticated GitHub Contents API calls from `_github_public_export`.
 
+Image path repair: remote tree audit found malformed Windows-style asset paths from an earlier upload attempt. The public export was republished from tracked files with normalized forward-slash paths so README, docs, and WordPress image links resolve on GitHub.
+
 ## Files Created
 
 - `README.md`
