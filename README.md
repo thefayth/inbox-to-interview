@@ -1,4 +1,4 @@
-![Inbox To Interview hero](assets/hero/hero-image.png)
+![Inbox To Interview Canva-generated operator room hero](assets/hero/hero-image.png)
 
 # Inbox To Interview
 
@@ -6,7 +6,7 @@
 
 This repository is a protected public project surface. It is not the full source code, operational system, private workflow, or data room.
 
-![GitHub banner](assets/banners/github-banner.png)
+![Inbox To Interview Canva-generated GitHub banner](assets/banners/github-banner.png)
 
 ## Why It Matters
 
@@ -67,6 +67,8 @@ The following remain private:
 ## Current Status
 
 V2 local app implementation is active. The command-center loop, action ledger, receipt model, split runtime scripts, phone surface, and safety gates are represented publicly here while the operating engine remains private.
+
+The hero and banner visuals were generated in Canva for this public surface to better represent the actual project: a private operator room where inbox signals become reviewed actions and receipts.
 
 ## Learn More
 
