@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="620" viewBox="0 0 1400 620" role="img" aria-labelledby="title desc">
+  <title id="title">Public private boundary</title>
+  <desc id="desc">A diagram showing public project materials, review and receipt layer, and the protected private engine.</desc>
+  <rect width="1400" height="620" fill="#f7f4ee"/>
+  <text x="70" y="78" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#1b342f">Public Surface. Private Engine. Receipts Always.</text>
+  <g font-family="Arial, sans-serif">
+    <rect x="70" y="140" width="350" height="360" rx="24" fill="#d9f0e6" stroke="#1b342f" stroke-width="3"/>
+    <text x="110" y="198" font-size="30" font-weight="700" fill="#1b342f">Public</text>
+    <text x="110" y="250" font-size="20" fill="#1b342f">README</text>
+    <text x="110" y="292" font-size="20" fill="#1b342f">Workflow visuals</text>
+    <text x="110" y="334" font-size="20" fill="#1b342f">Brand assets</text>
+    <text x="110" y="376" font-size="20" fill="#1b342f">WordPress draft</text>
+    <rect x="525" y="140" width="350" height="360" rx="24" fill="#f6df9f" stroke="#1b342f" stroke-width="3"/>
+    <text x="565" y="198" font-size="30" font-weight="700" fill="#1b342f">Review Layer</text>
+    <text x="565" y="250" font-size="20" fill="#1b342f">Approval gates</text>
+    <text x="565" y="292" font-size="20" fill="#1b342f">Action ledger</text>
+    <text x="565" y="334" font-size="20" fill="#1b342f">Receipts</text>
+    <text x="565" y="376" font-size="20" fill="#1b342f">Status checks</text>
+    <rect x="980" y="140" width="350" height="360" rx="24" fill="#1b342f" stroke="#1b342f" stroke-width="3"/>
+    <text x="1020" y="198" font-size="30" font-weight="700" fill="#ffffff">Private</text>
+    <text x="1020" y="250" font-size="20" fill="#ffffff">Source code</text>
+    <text x="1020" y="292" font-size="20" fill="#ffffff">Mailbox data</text>
+    <text x="1020" y="334" font-size="20" fill="#ffffff">Resume facts</text>
+    <text x="1020" y="376" font-size="20" fill="#ffffff">Database and runtime</text>
+  </g>
+  <g stroke="#1b342f" stroke-width="5" fill="none" marker-end="url(#arrow)">
+    <path d="M420 320 H525"/>
+    <path d="M875 320 H980"/>
+    <path d="M980 430 C790 560 520 560 330 500"/>
+  </g>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#1b342f"/></marker></defs>
+</svg>
