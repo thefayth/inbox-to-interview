@@ -10,6 +10,8 @@ Version status: base slug selected. Repository created with GitHub CLI after cle
 
 Repository URL: `https://github.com/thefayth/inbox-to-interview`
 
+Publishing status: public export uploaded to GitHub. Direct `git push` was blocked by local Windows credential prompt plumbing, so the export was published through authenticated GitHub Contents API calls from `_github_public_export`.
+
 ## Files Created
 
 - `README.md`
