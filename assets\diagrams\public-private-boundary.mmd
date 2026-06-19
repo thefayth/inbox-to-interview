@@ -1,0 +1,23 @@
+flowchart LR
+  subgraph Public["Public project surface"]
+    A["README"]
+    B["Workflow diagrams"]
+    C["Brand assets"]
+    D["WordPress draft"]
+  end
+  subgraph Review["Human review layer"]
+    E["Approval gates"]
+    F["Receipts"]
+    G["Status checks"]
+  end
+  subgraph Private["Private engine"]
+    H["Source code"]
+    I["Mailbox data"]
+    J["Resume facts"]
+    K["Local database"]
+    L["Runtime services"]
+  end
+  Public --> Review
+  Review --> Private
+  Private --> F
+  F --> Public
